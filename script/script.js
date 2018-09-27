@@ -21,7 +21,7 @@ indeling.innerText = "2de jaar student Mediadeveloper";
 //Changing the Content with onclick on link
 function changeContent() {
   if (link.id == "0") {
-    document.getElementById("foto").src = "../pics/e.png";
+    document.getElementById("foto").src = "pics/e.png";
     document.getElementById("0").id = "1";
     titel.innerHTML = "Click Event 2";
     opdracht.innerHTML =
@@ -31,7 +31,7 @@ function changeContent() {
     jaar.innerHTML = "2018";
     indeling.innerHTML = "Enge skelet";
   } else if (link.id == "1") {
-    document.getElementById("foto").src = "../pics/photo.jpg";
+    document.getElementById("foto").src = "pics/photo.jpg";
     document.getElementById("1").id = "0";
     titel.innerHTML = "Click Event 3";
     opdracht.innerHTML =
